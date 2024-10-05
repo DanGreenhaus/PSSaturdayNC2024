@@ -1,6 +1,6 @@
 #https://4sysops.com/archives/find-and-remove-duplicate-files-with-powershell/
 # Define source directory
-$srcDir = "D:\Profile Data File Storage\Dan\Pictures\comics"
+$srcDir = "D:\Temp"
 # Define destination directory
 $targetDir = "D:\Temp\DuplicateFiles\$(Get-Date -Format 'yyyyMMdd')"
 # Create destination directory 
